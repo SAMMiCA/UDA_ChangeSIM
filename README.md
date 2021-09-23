@@ -30,7 +30,7 @@ python test_CUDA.py
 
 You can download pretrained models here:
 
-- [Our pre-trained model](https://drive.google.com/drive/u/0/folders/1Sd2h2xbpVUH_70EGil2-Y2VYDp7HB1Es) trained on CityScapes with learning rate 1e-3, batch size 8, input size (512, 256). 
+- [pre-trained DeepLabV2 model](http://vllab.ucmerced.edu/ytsai/CVPR18/DeepLab_resnet_pretrained_init-f81d91e8.pth)
 
 
 ## Results
