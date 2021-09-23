@@ -1,5 +1,5 @@
 # Change Detection in 3D Reconstruction Map and the current view
-This repository is the official implementation of SAMMiCA scenario 1 3D Change Detection.
+This repository is the official implementation of SAMMiCA scenario Unsupervised Domain Adaptation for Tunnel (ChangeSIM dataset).
 
 
 ## Requirements
@@ -11,10 +11,10 @@ To install requirements:
 
 ## Training
 
-To train the U-net architecture model for the inpainting task, run this command:
+To train the proposed UDA method
 
 ```train
-python train.py
+python train_CUDA.py
 ```
 
 ## Evaluation
@@ -22,7 +22,7 @@ python train.py
 To evaluate my model on CityScapes, run:
 
 ```eval
-python validation.py
+python test_CUDA.py
 ```
 
 
@@ -35,17 +35,7 @@ You can download pretrained models here:
 
 ## Results
 
-Our model achieves the following performance on [CityScapes](https://www.cityscapes-dataset.com/) dataset:
-
-#### Input 1
-![example9](examples/9_input.png)
-#### Output 1
-![recon9](examples/9_reconstruct.png)
-
-#### Input 2
-![example9](examples/23_input.png)
-#### Output 2
-![recon9](examples/23_reconstruct.png)
+Our model achieves the following performance on [ChangeSIM](https://www.cityscapes-dataset.com/) dataset:
 
 ## Acknowledgments
 AI 28 Project
